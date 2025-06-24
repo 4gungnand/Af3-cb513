@@ -2,7 +2,7 @@
 # Script to convert mmCIF files to DSSP format using mkdssp
 
 # Define the directories containing the mmCIF files
-directories=("Data/Postprocessed/CASP12_2")
+directories=("../Data/Postprocessed/CASP10_2")
 
 # Loop through each directory
 for dir in "${directories[@]}"; do
